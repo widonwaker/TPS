@@ -57,7 +57,7 @@
     <!--<plugin name="cordova-plugin-camera" source="npm"/>-->
 	<!--<plugin name="cordova-plugin-media-capture" source="npm"/>-->
 	<!--<plugin name="cordova-plugin-console" source="npm"/>-->
-	<plugin name="phonegap-admob" source="npm"/>
+    <!--<plugin name="phonegap-admob" source="npm"/>-->
     <!--<plugin name="cordova-plugin-contacts" source="npm"/>-->
     <!--<plugin name="cordova-plugin-device" source="npm"/>-->
     <!--<plugin name="cordova-plugin-device-motion" source="npm"/>-->
