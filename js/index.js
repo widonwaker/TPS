@@ -10,7 +10,7 @@ document.addEventListener('deviceready', function () {
   };
 
   window.plugins.OneSignal.init("76de9b2b-577d-44c6-844a-dc9228b9597f",
-                                 {googleProjectNumber: "440027051507"},
+                                 {googleProjectNumber: "790260643795"},
                                  notificationOpenedCallback);
   
   // Show an alert box if a notification comes in when the user is in your app.
