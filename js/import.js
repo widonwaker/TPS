@@ -37,7 +37,7 @@ function loading(showOrHide) {
 							
 							var content = $('<div />').attr('data-role', 'main').attr('class', 'ui-content');						                  
 				            
-							var listul = $('<ul style="font-size: 99vw;" />').attr('data-role', 'listview').attr('data-inset', 'true') ;
+							var listul = $('<ul style="font-size: 3vw;" />').attr('data-role', 'listview').attr('data-inset', 'true') ;
   if (item.PC != '') { listul.append('<li><img src="img/pc.png" alt="playstation" class="ui-li-icon">'+item.PC+'</li>') };
   if (item.xbox != '') { listul.append('<li><img src="img/microsoft.png" alt="microsoft" class="ui-li-icon" >'+item.xbox+'</li>') };
   if (item.playstation != '') { listul.append('<li><img src="img/playstation.png" alt="pc" class="ui-li-icon" >'+item.playstation+'</li>') };
