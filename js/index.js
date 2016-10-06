@@ -15,12 +15,5 @@ document.addEventListener('deviceready', function () {
   
   // Show an alert box if a notification comes in when the user is in your app.
   window.plugins.OneSignal.enableInAppAlertNotification(true);
-  
-      admob.setOptions({
-        publisherId:          "ca-app-pub-8260710890108991~5325263661",  // Required
-        interstitialAdId:     "ca-app-pub-8260710890108991/3429728069",  // Optional
-    });
-	
-	admob.requestInterstitialAd();
 	
 }, false);
