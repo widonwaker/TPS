@@ -79,7 +79,7 @@
     
         
 	    <plugin name="onesignal-cordova-plugin" source="npm" />
-	    <gap:plugin name="phonegap-admob" source="npm"/>
+	    <gap:plugin name="cordova-plugin-admob" source=“npm" />
 
     
 
