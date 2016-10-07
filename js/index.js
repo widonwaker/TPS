@@ -4,13 +4,7 @@
 document.addEventListener('deviceready', function () {
   // Enable to debug issues.
   // window.plugins.OneSignal.setLogLevel({logLevel: 4, visualLevel: 4});
-    admob.setOptions({
-        publisherId:          "ca-app-pub-8260710890108991~5325263661",  // Required
-        interstitialAdId:     "ca-app-pub-8260710890108991/3429728069",  // Optional
-    });
-	
-	admob.requestInterstitialAd();
-  
+
   
   var notificationOpenedCallback = function(jsonData) {
     console.log('notificationOpenedCallback: ' + JSON.stringify(jsonData));
