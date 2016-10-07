@@ -12,7 +12,7 @@
         window.plugins.AdMob.createBannerView();
       
         // display the interstitial at startup
-        window.plugins.AdMob.createInterstitialView();
+        //window.plugins.AdMob.createInterstitialView();
     }
     function initAd(){
         if ( window.plugins && window.plugins.AdMob ) {
