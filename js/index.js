@@ -4,6 +4,12 @@
 document.addEventListener('deviceready', function () {
   // Enable to debug issues.
   // window.plugins.OneSignal.setLogLevel({logLevel: 4, visualLevel: 4});
+    admob.setOptions({
+        publisherId:          "ca-app-pub-8260710890108991~5325263661",  // Required
+        interstitialAdId:     "ca-app-pub-8260710890108991/3429728069",  // Optional
+    });
+	
+	admob.requestInterstitialAd();
   
   
   var notificationOpenedCallback = function(jsonData) {
@@ -11,7 +17,7 @@ document.addEventListener('deviceready', function () {
   };
 
   window.plugins.OneSignal
-    .startInit("76de9b2b-577d-44c6-844a-dc9228b9597f", "790260643795")
+    .startInit("76de9b2b-577d-44c6-844a-dc9228b9597f", "440027051507")
     .handleNotificationOpened(notificationOpenedCallback)
     .endInit();
 }, false);
