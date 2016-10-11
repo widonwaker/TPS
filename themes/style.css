@@ -28,6 +28,7 @@ h3 {
 .ui-page {
 	background-image:url(../img/bg.jpg);
 	background-size:cover;
+	background-attachment: fixed;
 }
 .ui-header {
 	background-image:url(../img/header_bg.jpg);
