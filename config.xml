@@ -82,7 +82,7 @@
     
         
 	    <gap:plugin name="onesignal-cordova-plugin" source="npm" />
-	    <gap:plugin name="com.rjfun.cordova.mobfox" source="plugins.cordova.io"/>
+	    <gap:plugin name="com.rjfun.cordova.mobfox" source="npm"/>
 
     
 
