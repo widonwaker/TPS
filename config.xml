@@ -3,7 +3,7 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <!-- ATTENZIONE: L'ID E' STATO CAMBIATO IN com.apploadin.btps PER ANDROID, MENTRE PER IOS RESTA com.apploadin.tps -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
-        xmlns:gap = "http://phonegap.com/ns/3.1.0"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.apploadin.tps"
         version   = "1.0.0"
 	ios-CFBundleVersion = "1.0.0"
@@ -82,7 +82,7 @@
     
         
 	    <gap:plugin name="onesignal-cordova-plugin" source="npm" />
-	    <gap:plugin name="com.rjfun.cordova.flurryads" source="plugins.cordova.io"/>
+	    <gap:plugin name="com.rjfun.cordova.mobfox" source="plugins.cordova.io"/>
 
     
 
@@ -175,7 +175,7 @@
     <access origin="*"/>
     <!-- Added the following intents to support the removal of whitelist code from base cordova to a plugin -->
     <!-- Whitelist configuration. Refer to https://cordova.apache.org/docs/en/edge/guide_appdev_whitelist_index.md.html -->
-    <plugin name="cordova-plugin-whitelist" version="1" />
+
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
