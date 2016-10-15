@@ -9,8 +9,8 @@
 			}
 		}
 		var ad_units = {
-			ios : "40a348597e2dc81c63d908d38d00d424",
-			android : "40a348597e2dc81c63d908d38d00d424"
+			ios : "643a91ff86914716938ed5f3679c78e4",
+			android : "643a91ff86914716938ed5f3679c78e4"
 		};
 		// select the right Ad Id according to platform
 		var publisherId = (/(android)/i.test(navigator.userAgent)) ? ad_units.android : ad_units.ios;
