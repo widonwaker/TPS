@@ -2,9 +2,10 @@
 		function onLoad() {
 			if ((/(ipad|iphone|ipod|android)/i.test(navigator.userAgent))) {
 				document.addEventListener('deviceready', initApp, false);
-				createSelectedBanner();
+				
 			} else {
 				initApp();
+				
 			}
 		}
 		var ad_units = {
