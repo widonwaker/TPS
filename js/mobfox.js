@@ -22,8 +22,7 @@
 			registerAdEvents();
 			
 			MobFox.setOptions({
-				// adId: publisherId,
-				isTesting: false,
+				adId: publisherId,
 				// width: integer,
 				// height: integer,
 				position : MobFox.AD_POSITION.BOTTOM_CENTER,
