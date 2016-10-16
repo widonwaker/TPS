@@ -34,14 +34,14 @@
 			createSelectedBanner();
 		}
 		// optional, in case respond to events or handle error
-		function registerAdEvents() {
+		/*function registerAdEvents() {
             document.addEventListener('onAdFailLoad', function(data){ 
             	alert('error: ' + data.error + 
             			', reason: ' + data.reason + 
             			', adNetwork:' + data.adNetwork + 
             			', adType:' + data.adType + 
             			', adEvent:' + data.adEvent); // adType: 'banner' or 'interstitial'
-            });
+            });*/
             document.addEventListener('onAdLoaded', function(data){});
             document.addEventListener('onAdPresent', function(data){});
             document.addEventListener('onAdLeaveApp', function(data){});
