@@ -83,6 +83,7 @@
         
 	    <gap:plugin name="onesignal-cordova-plugin" source="npm" />
             <gap:plugin name="com.appodeal.plugin" source="npm" />
+	    <gap:plugin name="com.appodeal.googleplayservices" source="npm" />
     
 
     <!-- Define app icon for each platform. -->
