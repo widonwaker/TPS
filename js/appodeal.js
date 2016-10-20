@@ -1,3 +1,3 @@
-          var appKey = "fee50c333ff3825fd6ad6d38cff78154de3025546d47a84f";
+          var appKey = "80729c3857e25a006c7c1006fd65af2a2e03d540f22a6dce";
             Appodeal.initialize(appKey, Appodeal.INTERSTITIAL | Appodeal.SKIPPABLE_VIDEO | Appodeal.BANNER);
             Appodeal.show(Appodeal.BANNER_BOTTOM);
