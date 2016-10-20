@@ -8,6 +8,7 @@
             Appodeal.enableBannerCallbacks(true);
             Appodeal.enableRewardedVideoCallbacks(true);
             registerAdEvents();
+            Appodeal.show(Appodeal.BANNER_BOTTOM);    
         }
         function showInterstitial() {
             Appodeal.show(Appodeal.INTERSTITIAL, function(result) {
@@ -34,7 +35,7 @@
             Appodeal.show(Appodeal.BANNER_BOTTOM);
         }
         function showInterstitialOrVideo() {
-            Appodeal.show(Appodeal.INTERSTITIAL | Appodeal.VIDEO);
+            Appodeal.show(Appodeal.INTERSTITIAL | Appodeal.SKIPPABLE_VIDEO);
         }
         function hideBanner() {
             Appodeal.hide(Appodeal.BANNER);
