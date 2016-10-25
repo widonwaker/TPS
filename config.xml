@@ -4,7 +4,7 @@
 <!-- ATTENZIONE: L'ID E' STATO CAMBIATO IN com.apploadin.btps PER ANDROID, MENTRE PER IOS RESTA com.apploadin.tps -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.apploadin.botps"
+        id        = "com.apploadin.tps"
         version   = "1.0.3"
 	ios-CFBundleVersion = "1.0.3"
         windows-packageVersion = "1.0.3">
@@ -83,7 +83,7 @@
         
 	    <gap:plugin name="onesignal-cordova-plugin" source="npm" />
             <gap:plugin name="com.appodeal.plugin" source="npm" />
-	    <gap:plugin name="com.appodeal.googleplayservices" source="npm" />
+	    
     
 
     <!-- Define app icon for each platform. -->
