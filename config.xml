@@ -82,7 +82,7 @@
     
         
 	    <gap:plugin name="onesignal-cordova-plugin" source="npm" />
-            <gap:plugin name="com.appodeal.plugin" source="npm" />
+            <plugin spec="https://github.com/appodeal/appodeal-cordova-plugin.git" source="git"/>
 	<!-- <gap:plugin name="com.appodeal.googleplayservices" source="npm" />-->
 	    
     
