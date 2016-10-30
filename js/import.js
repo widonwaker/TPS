@@ -26,7 +26,7 @@ function loading(showOrHide) {
                         var _ul = $('<ul />').attr('data-role', 'listview').attr('data-inset', 'true');
                         $.each(data, function (i, item) {
                             $('<li />')
-                                 .append($('<a class="wrap" onclick="ads()" href="#p'+item.id+'" >'+item.content+'</a>')
+                                 .append($('<a class="wrap" onclick="Appodeal.show(Appodeal.INTERSTITIAL | Appodeal.SKIPPABLE_VIDEO)" href="#p'+item.id+'" >'+item.content+'</a>')
                                  )
                             .appendTo(_ul);
 							var makePage = $('<div />').attr('data-role', 'page').attr('id', 'p'+item.id)
