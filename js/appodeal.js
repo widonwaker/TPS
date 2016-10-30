@@ -8,7 +8,3 @@ var appKey = "80729c3857e25a006c7c1006fd65af2a2e03d540f22a6dce";
           Appodeal.show(Appodeal.BANNER_BOTTOM);
          }, 3000);
 }
-
-function ads() {
-      Appodeal.show(Appodeal.SKIPPABLE_VIDEO);
-}
